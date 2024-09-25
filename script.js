@@ -16,12 +16,8 @@ helloBtn.addEventListener("click", function () {
 
 // Evento de clique para alterar o texto do título
 changeTitleBtn.addEventListener("click", function () {
-  title.textContent = "vai toma no cu";
+  title.textContent = "Esse título foi modificado com JS";
 });
-
-//changeTitleBtn.addEventListener("click", function () {
- // mensagens.textContent = "vai toma no cu por favor";
-//}); 
 
 const mudarFraseBtn = document.createElement('button');
 mudarFraseBtn.textContent = 'Mude as frases'; 
